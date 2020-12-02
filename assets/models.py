@@ -1,4 +1,6 @@
 # coding: utf-8
+import sys
+sys.path.append('/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages')
 from sqlalchemy import Column, Integer, String, Boolean, DateTime, Date
 from assets.database import Base
 from datetime import datetime as dt
